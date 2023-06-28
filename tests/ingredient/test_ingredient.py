@@ -22,3 +22,5 @@ def test_ingredient():
     assert repr(feijao) == "Ingredient('feijao')"
 
     assert arroz != feijao
+
+    assert arroz == Ingredient("arroz")
